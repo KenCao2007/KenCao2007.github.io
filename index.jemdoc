@@ -1,0 +1,51 @@
+# jemdoc: menu{MENU}{index.html}, nofooter, noeqs
+= Haoqun Cao
+
+~~~
+{}{img_left}{photos/profile.jpg}{Haoqun Cao}{150}{}
+Ph.D. Student, Department of Statistics \n
+University of Wisconsin--Madison \n
+Email: [hcao65@wisc.edu] \n
+[https://github.com/KenCao2007 GitHub] {{&nbsp;|&nbsp;}} [https://www.linkedin.com/in/haoqun-cao-791a77271/ LinkedIn] {{&nbsp;|&nbsp;}} [https://scholar.google.com/citations?user=uAilU0EAAAAJ&hl=en Google Scholar] {{&nbsp;|&nbsp;}} [CV.pdf CV]
+~~~
+
+== About Me
+I am a third-year Ph.D. student in Statistics at the University of Wisconsin--Madison, advised by Prof. [https://tengyangxie.github.io/ Tengyang Xie]. I received my B.S. in Statistics from [http://stat.ruc.edu.cn/Home/index.htm Renmin University of China] in 2024, where I worked with Prof. [https://zhoufeng6288.github.io/index.html Feng Zhou].
+
+*I am looking for research internship positions for Summer 2027.* Please feel free to reach out!
+
+Besides research, I enjoy reading history books, playing soccer and video games, and playing in a Chinese orchestra.
+
+== Research
+I am interested in how to learn a policy that acts in a /very large action space/ over a /long horizon/. This includes continuous control in the physical world, and also LLMs. In particular, during my Ph.D., I have worked on:
+- Action tokenization for long-horizon control
+- Reinforcement learning for LLM post-training
+- Long-horizon reasoning with LLMs
+
+In the past, I worked on deep probabilistic models, including point processes and approximate inference. I lead my projects end to end, from problem formulation and theory to implementation, experiments and writing.
+
+== Publications
+(\* denotes equal contribution)
+- Anatomy of Off-Policy Policy Gradient: Importance Sampling, KL Regularization, and Baselines [https://arxiv.org/abs/2610.25725 \[arXiv\]] \n
+*Haoqun Cao*, Yurun Yuan, Tengyang Xie \n
+/NeurIPS 2026/
+- Understanding Behavior Cloning with Action Quantization [https://arxiv.org/abs/2603.20538 \[arXiv\]] \n
+*Haoqun Cao*, Tengyang Xie \n
+/ICML 2026/
+- Is Score Matching Suitable for Estimating Point Processes? [https://arxiv.org/abs/2410.04037 \[arXiv\]] [https://github.com/KenCao2007/WSM_TPP \[code\]] \n
+*Haoqun Cao*, Zizhuo Meng, Tianjun Ke, Feng Zhou \n
+/NeurIPS 2024/
+- Accelerating Convergence in Bayesian Few-Shot Classification [https://arxiv.org/abs/2405.01507 \[arXiv\]] [https://github.com/keanson/MD-BSFC \[code\]] \n
+Tianjun Ke, *Haoqun Cao*, Feng Zhou \n
+/ICML 2024/
+- Revisiting Logistic-Softmax Likelihood in Bayesian Meta-Learning for Few-Shot Classification [https://arxiv.org/abs/2310.10379 \[arXiv\]] [https://github.com/keanson/revisit-logistic-softmax \[code\]] \n
+Tianjun Ke\*, *Haoqun Cao*\*, Zenan Ling, Feng Zhou \n
+/NeurIPS 2023/
+
+== Preprints
+- Self-Improving Long-Horizon Reasoning by Learning Summaries from Local Continuations \n
+*Haoqun Cao*, Tengyang Xie \n
+/Preprint, 2026/ (draft available upon request)
+- Score Matching for Estimating Finite Point Processes [https://arxiv.org/abs/2512.04617 \[arXiv\]] \n
+*Haoqun Cao*, Yixuan Zhang, Feng Zhou \n
+/Under review/

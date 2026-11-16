@@ -33,8 +33,8 @@ body {
 
 #layout-content {
 	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
     border: none;
     background: white;
     text-align: left;
@@ -91,7 +91,7 @@ div.menu-item {
 
 div#toptitle {
 	padding-bottom: 0.2em;
-	margin-bottom: 1.5em;
+	margin-bottom: 0.8em;
 	border-bottom: 3px double gray;
 }
 
@@ -118,11 +118,11 @@ strong {
 
 h1, h2, h3 {
 	color: #527bbd;
-	margin-top: 0.7em;
-	margin-bottom: 0.3em;
-	padding-bottom: 0.2em;
+	margin-top: 0.6em;
+	margin-bottom: 0.4em;
+	padding-bottom: 0.15em;
 	line-height: 1.0;
-	padding-top: 0.5em;
+	padding-top: 0.4em;
 	border-bottom: 1px solid #aaaaaa;
 }
 
@@ -131,7 +131,7 @@ h1 {
 }
 
 h2 {
-	padding-top: 0.8em;
+	padding-top: 0.5em;
 	font-size: 125%;
 }
 
@@ -146,9 +146,9 @@ h3 {
 
 p {
 	margin-top: 0.0em;
-	margin-bottom: 0.8em;
+	margin-bottom: 0.6em;
 	padding: 0;
-	line-height: 1.3;
+	line-height: 1.35;
 }
 
 pre {
@@ -176,7 +176,8 @@ div#footer-text {
 ul, ol, dl {
 	margin-top: 0.2em;
 	padding-top: 0;
-	margin-bottom: 0.8em;
+	margin-bottom: 0.6em;
+	padding-left: 1.6em;
 }
 
 dt {
@@ -215,7 +216,7 @@ ol {
 }
 
 li p, dd p {
-	margin-bottom: 0.3em;
+	margin-bottom: 0.45em;
 }
 
 
@@ -364,4 +365,50 @@ img {
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
+}
+
+/* ---- Site-specific additions ---- */
+
+/* Keep lines at a readable length on wide screens. */
+#layout-content > * {
+	max-width: 52em;
+}
+
+table.imgtable td {
+	vertical-align: middle;
+	padding-right: 1em;
+}
+
+table.imgtable img {
+	border-radius: 2px;
+}
+
+/* Phones: stack the menu above the content. */
+@media (max-width: 640px) {
+	table#tlayout, table#tlayout tbody, table#tlayout tr,
+	#layout-menu, #layout-content {
+		display: block;
+		width: auto;
+	}
+	#layout-menu {
+		padding-bottom: 0.4em;
+		white-space: normal;
+	}
+	#layout-menu div.menu-item {
+		display: inline-block;
+		padding-left: 0;
+		text-indent: 0;
+		margin-right: 0.6em;
+	}
+	#layout-content {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	table.imgtable, table.imgtable tbody, table.imgtable tr, table.imgtable td {
+		display: block;
+	}
+	table.imgtable td {
+		padding-left: 0;
+		padding-bottom: 0.4em;
+	}
 }
