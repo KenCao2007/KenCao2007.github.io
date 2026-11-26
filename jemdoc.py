@@ -140,8 +140,12 @@ def standardconf():
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
   [defaultcss]
-  <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-  
+  <link rel="stylesheet" href="jemdoc.css?v=2" type="text/css" />
+  <style type="text/css">
+  div#layout-content { max-width: 48em; margin: 0 auto; padding: 0.5em 2em 2em 2em; }
+  @media (max-width: 640px) { div#layout-content { padding-left: 1em; padding-right: 1em; } }
+  </style>
+
   [windowtitle]
   # used in header for window title.
   <title>|</title>

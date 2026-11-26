@@ -369,9 +369,11 @@ table.imgtable, table.imgtable td {
 
 /* ---- Site-specific additions ---- */
 
-/* Keep lines at a readable length on wide screens. */
-#layout-content > * {
-	max-width: 52em;
+/* No side menu: center the page and keep lines at a readable length. */
+div#layout-content {
+	max-width: 48em;
+	margin: 0 auto;
+	padding: 0.5em 2em 2em 2em;
 }
 
 table.imgtable td {
@@ -383,24 +385,9 @@ table.imgtable img {
 	border-radius: 2px;
 }
 
-/* Phones: stack the menu above the content. */
+/* Phones: narrower side padding, photo above the contact info. */
 @media (max-width: 640px) {
-	table#tlayout, table#tlayout tbody, table#tlayout tr,
-	#layout-menu, #layout-content {
-		display: block;
-		width: auto;
-	}
-	#layout-menu {
-		padding-bottom: 0.4em;
-		white-space: normal;
-	}
-	#layout-menu div.menu-item {
-		display: inline-block;
-		padding-left: 0;
-		text-indent: 0;
-		margin-right: 0.6em;
-	}
-	#layout-content {
+	div#layout-content {
 		padding-left: 1em;
 		padding-right: 1em;
 	}
